@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@900&display=swap');
+ body {
+     margin:0 100px;
+	font-size:18px;
+ }
+h1 {
+    background:#588C94;
+    text-align: center;
+    font-size:48px;
+    padding:40px;
+   
+    font-family: 'Truculenta', sans-serif;
+}
+h2 {
+    font-size:36px;
+    color:brown;
+    
+}
+h3 {
+    color:darkslateblue;
+    font-size:26px;
+}
+.parent1 {
+    display:flex; 
+}
+.parent2 {
+    display:flex;
+}
+.children {
+    margin:5px;
+}
+.children {
+  position: relative;
+  text-align: center;
+  
+}
+.top-left {
+  position: absolute;
+color: red;
+  top: 15px;
+  left: 16px;
+}
